@@ -1,5 +1,5 @@
 # Compile the pipeline
-
+steps:
 - name: 'gcr.io/$PROJECT_ID/kfp-cli-vertex'
   id: 'Compile the pipeline'
   args:
