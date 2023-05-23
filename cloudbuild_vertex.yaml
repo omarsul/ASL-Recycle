@@ -1,5 +1,5 @@
 # Compile the pipeline
-PROJECT_ID = 'qwiklabs-asl-02-71a732dc6bb9'
+
 - name: 'gcr.io/$PROJECT_ID/kfp-cli-vertex'
   id: 'Compile the pipeline'
   args:
